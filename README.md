@@ -26,5 +26,7 @@ Ask Chat GPT what each of the above command does.
 
 ## Learnings
 
-- A default VPC is requeired, else you see this error
-  <video src="../thecloudbootcamp/videos/default_vpc_error.mp4">
+- A default VPC is requeired
+- Terraform will not wait for all the EC2 checks to be completed
+- AWS will take a while to fully initialise EC2 server instance
+- Terraform will wait until the EC2 server is completely shutdown and terminated
