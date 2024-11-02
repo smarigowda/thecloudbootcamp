@@ -1,4 +1,4 @@
-# The Cloud Bootcamp
+# The DevOps Bootcamp
 
 # Task
 
