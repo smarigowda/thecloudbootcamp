@@ -2,7 +2,7 @@
 
 # Task
 
-- Provision an EC2 instance in AWS Cloud
+- Learn Terraform Input Variables with variable block and default values
 
 ## Pre-requisite
 
@@ -26,7 +26,4 @@ Ask Chat GPT what each of the above command does.
 
 ## Learnings
 
-- A default VPC is requeired
-- Terraform will not wait for all the EC2 checks to be completed
-- AWS will take a while to fully initialise EC2 server instance
-- Terraform will wait until the EC2 server is completely shutdown and terminated
+- variable block in Terraform
