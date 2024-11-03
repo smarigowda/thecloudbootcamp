@@ -2,7 +2,7 @@
 
 # Task
 
-- Learn Terraform Input Variables with variable block and default values
+- Prep work to learn Terraform Input Variables
 
 ## Pre-requisite
 
@@ -26,4 +26,4 @@ Ask Chat GPT what each of the above command does.
 
 ## Learnings
 
-- variable block in Terraform
+- Prep work to learn Input Variables in Terraform
