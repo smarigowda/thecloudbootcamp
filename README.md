@@ -2,7 +2,7 @@
 
 # Task
 
-- Using `variable` block to replace the tag values of S3 bucket
+- Ask for input to the Terraform variable from the user on command line
 
 ## Pre-requisite
 
@@ -26,4 +26,4 @@ Ask Chat GPT what each of the above command does.
 
 ## Learnings
 
-- Input variables using `variable` block and default values
+- Input variables can have values provided by user on the command line
