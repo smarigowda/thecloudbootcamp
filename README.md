@@ -2,7 +2,7 @@
 
 # Task
 
-- Prep work to learn Terraform Input Variables
+- Using `variable` block to replace the tag values of S3 bucket
 
 ## Pre-requisite
 
@@ -26,4 +26,4 @@ Ask Chat GPT what each of the above command does.
 
 ## Learnings
 
-- Prep work to learn Input Variables in Terraform
+- Input variables using `variable` block and default values
