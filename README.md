@@ -2,7 +2,7 @@
 
 # Task
 
-- Use environment variables to provide value to Terraform input variables
+- Use `-var` command line option to provide value to Terraform input variables
 
 ## Pre-requisite
 
@@ -16,23 +16,15 @@ export AWS_DEFAULT_REGION=eu-west-1
 
 - Install Terraform CLI on your Mac (ask Chat GPT)
 
-## Export TF_VAR variables
-
-Run the following commands to export the environment variables
-
-```sh
-export TF_VAR_Application=MYTFAPP
-export TF_VAR_ProjectID=MYTFPROJECT
-```
-
 ## Run Terraform Commands
 
 - `terraform init`
-- `terraform plan`
-- `terraform apply`
+- `terraform plan -var="Application=MYAPP" -var="ProjectID=DEV" -out=myPlan.tfplan`
+- `terraform apply myPlan.tfplan`
+- `terraform destroy -var="Application=MYAPP" -var="ProjectID=DEV"`
 
-Ask Chat GPT what each of the above command does.
+Ask Chat GPT what each of the above command does
 
 ## Learnings
 
-- Input variables can have values provided by environment variables
+- Input variables can have values provided using `-var` command line option

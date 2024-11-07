@@ -1,7 +1,7 @@
-variable "Application" {
+variable Application {
   description = "Application Name"
 }
 
-variable "ProjectID" {
+variable ProjectID {
   description = "Project ID"
 }
