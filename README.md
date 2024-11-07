@@ -2,7 +2,7 @@
 
 # Task
 
-- Use `-var` command line option to provide value to Terraform input variables
+- Use variable definitions file `terraform.tfvars` to provide value to Terraform input variables
 
 ## Pre-requisite
 
@@ -19,12 +19,12 @@ export AWS_DEFAULT_REGION=eu-west-1
 ## Run Terraform Commands
 
 - `terraform init`
-- `terraform plan -var="Application=MYAPP" -var="ProjectID=DEV" -out=myPlan.tfplan`
+- `terraform plan -out=myPlan.tfplan`
 - `terraform apply myPlan.tfplan`
-- `terraform destroy -var="Application=MYAPP" -var="ProjectID=DEV"`
+- `terraform destroy`
 
 Ask Chat GPT what each of the above command does
 
 ## Learnings
 
-- Input variables can have values provided using `-var` command line option
+- Input variables can have values provided using variable definitions file `terraform.tfvars`
