@@ -2,7 +2,7 @@
 
 # Task
 
-- Use `-var-file` command line option to specify any variable definitions file, which can provide value to Terraform input variables
+- Use `output` block to output the S3 bucket name
 
 ## Pre-requisite
 
@@ -19,12 +19,14 @@ export AWS_DEFAULT_REGION=eu-west-1
 ## Run Terraform Commands
 
 - `terraform init`
-- `terraform plan -var-file=test-environment.tfvars -out=myPlan.tfplan`
+- `terraform plan -out=myPlan.tfplan`
 - `terraform apply myPlan.tfplan`
-- `terraform destroy -var-file=test-environment.tfvars`
+- `terraform destroy`
+- `terraform show`
+- `terraform output`
 
 Ask Chat GPT what each of the above command does
 
 ## Learnings
 
-- Input variables can have values provided using any variable definitions file
+- How to use `output` block in Terraform to Output Values
