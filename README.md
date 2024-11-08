@@ -21,9 +21,9 @@ export AWS_DEFAULT_REGION=eu-west-1
 - `terraform init`
 - `terraform plan -out=myPlan.tfplan`
 - `terraform apply myPlan.tfplan`
-- `terraform destroy`
 - `terraform show`
 - `terraform output`
+- `terraform destroy`
 
 Ask Chat GPT what each of the above command does
 
