@@ -1,2 +1,0 @@
-Application = "MYAPP"
-ProjectID = "MYPROJECT"
