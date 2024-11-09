@@ -2,7 +2,7 @@
 
 # Task
 
-- Use `output` block to output the S3 bucket name
+- Use attributes and dependencies in Terraform
 
 ## Pre-requisite
 
@@ -19,14 +19,13 @@ export AWS_DEFAULT_REGION=eu-west-1
 ## Run Terraform Commands
 
 - `terraform init`
-- `terraform plan -out=myPlan.tfplan`
-- `terraform apply myPlan.tfplan`
+- `terraform plan`
+- `terraform apply`
 - `terraform show`
-- `terraform output`
 - `terraform destroy`
 
 Ask Chat GPT what each of the above command does
 
 ## Learnings
 
-- How to use `output` block in Terraform to Output Values
+- How to use attributes and dependencies in Terraform
